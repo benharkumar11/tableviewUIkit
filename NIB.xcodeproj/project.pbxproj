@@ -16,6 +16,9 @@
 		7EE177952C87B24D00CC3EF5 /* NIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177942C87B24D00CC3EF5 /* NIBTests.swift */; };
 		7EE1779F2C87B24D00CC3EF5 /* NIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1779E2C87B24D00CC3EF5 /* NIBUITests.swift */; };
 		7EE177A12C87B24D00CC3EF5 /* NIBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177A02C87B24D00CC3EF5 /* NIBUITestsLaunchTests.swift */; };
+		7EE177AE2C87B4E900CC3EF5 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177AD2C87B4E900CC3EF5 /* TableController.swift */; };
+		7EE177B12C87B5A600CC3EF5 /* XIBTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE177B02C87B5A600CC3EF5 /* XIBTVC.xib */; };
+		7EE177B22C87B5A600CC3EF5 /* XIBTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE177AF2C87B5A600CC3EF5 /* XIBTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7EE1779A2C87B24D00CC3EF5 /* NIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE1779E2C87B24D00CC3EF5 /* NIBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBUITests.swift; sourceTree = "<group>"; };
 		7EE177A02C87B24D00CC3EF5 /* NIBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EE177AD2C87B4E900CC3EF5 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		7EE177AF2C87B5A600CC3EF5 /* XIBTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBTVC.swift; sourceTree = "<group>"; };
+		7EE177B02C87B5A600CC3EF5 /* XIBTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBTVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				7EE177862C87B24D00CC3EF5 /* Assets.xcassets */,
 				7EE177882C87B24D00CC3EF5 /* LaunchScreen.storyboard */,
 				7EE1778B2C87B24D00CC3EF5 /* Info.plist */,
+				7EE177AD2C87B4E900CC3EF5 /* TableController.swift */,
+				7EE177AF2C87B5A600CC3EF5 /* XIBTVC.swift */,
+				7EE177B02C87B5A600CC3EF5 /* XIBTVC.xib */,
 			);
 			path = NIB;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 				7EE177872C87B24D00CC3EF5 /* Assets.xcassets in Resources */,
 				7EE1778A2C87B24D00CC3EF5 /* Base in Resources */,
 				7EE177852C87B24C00CC3EF5 /* Base in Resources */,
+				7EE177B12C87B5A600CC3EF5 /* XIBTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE177AE2C87B4E900CC3EF5 /* TableController.swift in Sources */,
 				7EE177822C87B24B00CC3EF5 /* ViewController.swift in Sources */,
 				7EE1777E2C87B24B00CC3EF5 /* AppDelegate.swift in Sources */,
+				7EE177B22C87B5A600CC3EF5 /* XIBTVC.swift in Sources */,
 				7EE177802C87B24B00CC3EF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

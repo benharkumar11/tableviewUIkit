@@ -9,6 +9,11 @@ import UIKit
 
 class XIBTVC: UITableViewCell {
 
+    
+    static let cellIdentifier = "NIBTableViewCellIdentifier"
+    
+    @IBOutlet var label: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
